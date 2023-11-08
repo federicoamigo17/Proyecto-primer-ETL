@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18b96fa3861-1eb5f83684f1744a": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "streaming.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/federicoa/proyectos/desafio-rocking/streaming.db",
+				"url": "jdbc:sqlite:/home/federicoa/proyectos/desafio-rocking/streaming.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
